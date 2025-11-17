@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 构建鼠标点击助手的exe可执行文件
+更新打包程序，需要注意 python环境的依赖。
 """
 
 import os
