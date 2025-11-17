@@ -32,6 +32,11 @@ def build_exe():
         "--add-data=mousehelper.png;.",  # 包含图片文件
         "--hidden-import=pynput.keyboard._win32",
         "--hidden-import=pynput.mouse._win32",
+        "--hidden-import=pyautogui",
+        "--hidden-import=pyautogui._pyautogui_win",
+        "--hidden-import=PIL",
+        "--hidden-import=PIL.Image",
+        "--hidden-import=PIL.ImageFile",
         "--clean",  # 清理临时文件
         "main.py"
     ]
